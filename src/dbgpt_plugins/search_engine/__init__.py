@@ -20,7 +20,7 @@ class AutoGPTSearchEngine(AutoGPTPluginTemplate):
         self._name = "Search-Engine-Plugin"
         self._version = "0.2.0"
         self._description = (
-            "This plug-in provides search for Internet information."
+            "提供互联网搜索的能力"
         )
         self.search_engine = os.getenv("SEARCH_ENGINE")
         language = os.getenv("LANGUAGE", "en")
